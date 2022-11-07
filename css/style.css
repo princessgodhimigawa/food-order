@@ -1,0 +1,729 @@
+/*css for all*/
+*{
+    margin: 0;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+.yellow{
+    color: yellow;
+}
+#yellow{
+    color: yellow;
+}
+
+
+.float-left{
+    float: left;
+} 
+.float-container{
+    position: relative;
+}
+.bg_wheat{
+    background-color: wheat;
+}
+ul{
+    list-style-type: none;
+}
+.float-left{
+    float: left;
+}
+.float-text{
+    position: absolute;
+    bottom: 15%;
+    left: 40%; 
+}
+.color-black{
+    color: #1B1A17;
+}
+.color-yellow{
+    color: #e1b12c;
+}
+a{
+    color: #1B1A17;
+    text-decoration: none;
+}
+a:hover{
+    color: aliceblue;
+}
+
+.img-responsive{
+    width: 100%;
+    height: 100%;
+}
+.img-curve{
+    border-radius: 20px;
+}
+.text-right{
+    text-align: right;
+}
+.text-white{
+    color: white;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+.landing-bg{
+    background: rgb(241,240,237);
+background: linear-gradient(90deg, rgba(241,240,237,1) 0%, rgba(237,233,70,1) 100%);
+}
+
+.text-bg-color{
+    
+    width: 50%;
+    text-align: center;
+    padding: 1%;
+    background-color: #e1b12c;
+    border-radius: 20px;
+    color: #1B1A17;
+    
+}
+
+.text-center{
+    text-align: center;
+}
+.btn{
+    padding: 2%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+
+.btn-primary{
+    background: #e1b12c;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+.btn-delete{
+    background: coral;
+    
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color: aliceblue;
+    color: #e1b12c;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+fieldset{
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+.success{
+    padding: 2%;
+    color: #2ed573;
+}
+.error{
+    padding: 2%;
+    color: red;
+}
+
+/*landing page*/
+
+.landing{
+    border-top: #000;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.landing .contentland{
+    max-width: 500px;
+}
+.landing .contentland h1{
+    font-size: 4.5em;
+    color: #000;
+    line-height: 1em;
+    margin: 10px
+}
+.landing .contentland p{
+    font-size: 1em;
+    color: #000;
+    line-height: 1em;
+    margin: 30px 10px;
+
+}
+
+.img-landing{
+    width: 25rem;
+}
+
+.primary-btn{
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: #e1b12c;
+    padding: 8px 15px;
+    margin: 30px 10px;
+    font-weight: 500;
+}
+
+
+
+/*css for navbar*/
+.navbar{
+    border: #000;
+    background: rgb(241,240,237);
+background: linear-gradient(90deg, rgba(241,240,237,1) 0%, #F8FA70 100%);
+}
+.logo{ 
+    width: 7%;
+    float: left;
+}
+.menu{
+   line-height: 75px;
+}
+.menu ul li{
+    display: inline;  
+    padding: 1%;
+    font-weight: bold;  
+}
+.menu ul li a span{
+    
+    color:#047c36;
+}
+
+/*css for search/*/
+.searchbox{
+    background-image: url(../images/BG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1% 0;
+}
+.searchbox input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+}
+.sb-desc{
+        
+        background-color: #e1b12c;
+        margin: 0 5%;
+        width: 15%;
+        padding: 1%;
+        border-radius: 15px;
+    }
+.box-3{
+    
+    width: 28%;
+    float: left;
+    margin: 2%;
+    padding: 5px;
+    background-color: #e1b12c;
+    border-radius: 15px;
+}
+
+/* css for categories*/
+.categories{
+    background-color: wheat;
+}
+
+.food-price{
+    font-size: 1rem;
+    margin: 3% 0;
+    
+}
+.food-detail{
+    color: grey;
+    
+}
+
+/* css for socials*/
+.social{
+    background-color: #1B1A17;
+    border-top: 1px solid grey;
+}
+.social ul li{
+    display: inline;
+}
+.social ul li a{
+    color: #e1b12c;
+}
+.s-box:hover{
+    color: aliceblue;
+}
+.s-box{
+    
+    width: 30%;
+
+    padding: 2%;
+    margin: 0 5%;
+    float: left;
+}
+.s-logo{
+    width: 20%;
+    float: left;
+    margin-right: 2%;
+}
+.s-desc{
+    padding-top: 2%;
+}
+
+/*css for footer*/
+.footer{
+    background: rgb(241,240,237);
+    background: linear-gradient(90deg, rgba(241,240,237,1) 0%, rgba(237,233,70,1) 100%);
+}
+/***********************food menu********************************/
+.food-menu{
+    background-color: wheat;
+}
+.food-menu-box{
+    border: 1px solid black;
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: aliceblue;
+    border-radius: 15px;
+}
+.food-menu-img{
+    width: 20%;
+    float: left;
+   
+}
+.food-menu-desc{
+    
+    width: 65%;
+    
+    
+    margin-left: 10%;
+}
+
+
+/***********************ORDER.HTML********************************/
+/*css for topbg*/
+.topbg{
+    background-image: url(../images/BG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    padding: 1% 0;
+}
+
+/* for Order Section */
+.food-order{
+    background-color: grey;
+}
+.order{
+    width: 50%;
+    margin: 0 auto;
+}
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+}
+
+/*Css for food Search*/
+.food-search{
+    background-image: url(../images/BG.png);
+    padding: 5%;
+}
+.food-search-msg{
+    background-color: #696969;
+    border-radius: 15px;
+    padding: 2%;
+    
+    
+    
+}
+/*user prof table*/
+.wrapper2{
+    
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.wrapper{
+    
+    padding: 1%;
+    width: 60%;
+    margin: 0 auto;
+}
+.tbl-full{
+    width: 100%;
+}
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+table tr td{
+    padding: 1%;
+}
+.tbl-30{
+    width: 30%;
+}
+
+/*cart under user profile*/
+
+.wrapper table thead th{
+    padding: 1.5rem;
+    font-size: 2rem;
+
+    background-color: #e1b12c;
+}
+.wrapper table tr td{
+    padding: 1rem;
+    font-size: 1.2rem;
+    border-bottom: var(--border);
+}
+/* css for checkout*/
+.Checkout{
+    background-color: #696969;
+}
+.checkout-order{
+    border-radius: .5rem;
+    max-width: 50rem;
+    background-color: wheat;
+    text-align: center;
+    padding: 1rem;
+    margin:0 auto;
+}
+.Checkout span{
+    display: inline-block;
+    border-radius: .5rem;
+    background-color: rgb(194, 190, 185);
+    padding: .2rem;
+    margin: 5px;
+    font-size: large;
+}
+.Checkout span.grand-total{
+    width: 70%;
+    background-color: #2ed573;
+    padding: 1rem;
+    margin-top: .5rem;
+
+}
+
+.order_message_container{
+    position: fixed;
+    top:0; left:0;
+    min-height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1100;
+    background-color: #2ed573;
+    width: 100%;   
+}
+
+.order_message_container::-webkit-scrollbar{
+    width: 1rem;  
+}
+.order_message_container::-webkit-scrollbar-track{
+    background-color: #696969;
+}
+.order_message_container::-webkit-scrollbar-thumb{
+    background-color: wheat;
+}
+
+.order_message_container .message-container{
+    width: 50rem;
+    background-color: whitesmoke;
+    border-radius: .5rem;
+    padding: 2rem;
+    text-align: center;
+}
+.order_message_container .message-container h3{
+    font-size: 2rem; 
+}
+.order_message_container .message-container .order_details{
+    background-color: wheat;
+    border-radius: .5rem;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+.order_message_container .message-container .order_details span{
+    background-color: whitesmoke;
+    border-radius: .5rem;
+    font-size: 2rem;
+    display: inline-block;
+    padding: 1rem 1.5rem;
+    margin: 1rem;
+}
+.order_message_container .message-container .order_details span.total{
+    display: block;
+    background-color: #2ed573;
+    color: white;
+}
+.order_message_container .message-container .customer_details{
+    margin: 1rem 0;
+}
+.order_message_container .message-container .customer_details p{
+    padding: 1rem 0;
+    font-size: 2rem; 
+}
+.order_message_container .message-container .customer_details p span{
+    color:#3498db;
+    padding: 0 .5rem;
+    text-transform: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS for Mobile Size or Smaller Screen */
+
+@media only screen and (max-width:768px){
+    .logo{
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+    }
+
+    .menu ul{
+        text-align: center;
+    }
+
+    .food-search input[type="search"]{
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 3%;
+    }
+
+    .btn{
+        width: 91%;
+        padding: 2%;
+    }
+
+    .food-search{
+        padding: 10% 0;
+    }
+
+    .categories{
+        padding: 20% 0;
+    }
+    h2{
+        margin-bottom: 10%;
+    }
+    .box-3{
+        width: 100%;
+        margin: 4% auto;
+    }
+
+    .food-menu{
+        padding: 20% 0;
+    }
+
+    .food-menu-box{
+        width: 90%;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+    .social{
+        padding: 5% 0;
+    }
+    .order{
+        width: 100%;
+    }
+
+    .landing .contentland{
+        max-width: 500px;
+    }
+    .landing .contentland h1{
+        font-size: 2em;
+        color: #000;
+        line-height: 1em;
+        margin: 10px
+    }
+    .landing .contentland p{
+        font-size: 15px;
+        color: #000;
+        line-height: 1em;
+        margin: 30px 10px;
+    
+    }
+
+
+
+}
+
+/*Login style*/
+
+.body{
+    background: #333;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container1{
+    width: 360px;
+    height: 600px;
+    background-image: url(../images/logo1.jpg);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+.container1 h1{
+    font-size: 40px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 10px;
+    padding-bottom: 2px;
+    background: #00000040;
+}
+.tbox{
+    width: 260px;
+    height: 40px;
+    background: wheat;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+.tbox input{
+    background: none;
+    border: none;
+    outline: none;
+    text-align: center;
+    width: 90%;
+    line-height: 30px;
+    font-size: 1rem;
+    color: #333;
+}
+.btn1{
+    width: 260px;
+    height: 40px;
+    background: lightblue;
+    border-radius: 10px;
+    margin:14px auto;
+    display: block;
+    font-size: 1rem;
+    border: none;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.b1{
+    position:absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 260px;
+    padding: 10px 0;
+    text-decoration: none;
+    transition: 0.4s all;
+    color: #3498db;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.container1 a:hover{
+    background: #00000040;
+}
+
+/*user profile css*/
+.head{
+    
+    
+    font-size: 40px;
+    margin: 0 40%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding-bottom: 2px;
+    background: #00000040;
+    text-align: center;
+    
+}
+
+.body2{
+    background-color: wheat;
+}
+.text1{
+      
+    padding: 10px;
+    
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #333;  
+}
+.text2{
+    border: 1px solid black;
+    
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.btn2{
+    width: 260px;
+    height: 40px;
+    background: lightblue;
+    border-radius: 10px;
+    margin:14px auto;
+    display: block;
+    font-size: 1.5rem;
+    border: none;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+}
+.btn_checkout{
+
+    width: 260px;
+    height: 40px;
+    background: green;
+    border-radius: 25px;
+    margin:14px auto;
+    display: block;
+    font-size: 1.5rem;
+    border: none;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+
